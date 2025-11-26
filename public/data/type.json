@@ -1,0 +1,38 @@
+{
+  "hw": {
+    "displayName": "Homework",
+    "description": "Assigned exercises or problem sets."
+  },
+  "slide": {
+    "displayName": "Slides",
+    "description": "Lecture presentation slides."
+  },
+  "final": {
+    "displayName": "Final Exam",
+    "description": "Final exam questions, solutions, or practice sets."
+  },
+  "midterm": {
+    "displayName": "Midterm Exam",
+    "description": "Midterm exam questions, solutions, or practice sets."
+  },
+  "project": {
+    "displayName": "Project",
+    "description": "Project descriptions, starter code, or submissions."
+  },
+  "reference": {
+    "displayName": "Reference",
+    "description": "Supplementary reference materials such as books or papers."
+  },
+  "quiz": {
+    "displayName": "Quiz",
+    "description": "Short assessments or quiz materials."
+  },
+  "lab": {
+    "displayName": "Lab",
+    "description": "Lab instructions, experiments, or data files."
+  },
+  "note": {
+    "displayName": "Notes",
+    "description": "Course notes created by instructors or students."
+  }
+}

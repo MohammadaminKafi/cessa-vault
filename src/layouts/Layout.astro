@@ -1,0 +1,153 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+
+// Import the theme CSS
+import '../styles/theme.css';
+import ThemeToggle from '../components/ThemeToggle';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description || "CESSA Vault - University Material Archive"} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} | CESSA Vault</title>
+    
+    <!-- Initialize theme before page renders to prevent flash -->
+    <script is:inline>
+      (function() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+          document.documentElement.setAttribute('data-theme', savedTheme);
+        } else {
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+        }
+      })();
+    </script>
+    
+    <style is:global>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        background-color: var(--background);
+        color: var(--text);
+        line-height: 1.6;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      a {
+        color: var(--primary);
+        text-decoration: none;
+        transition: color var(--transition-base);
+      }
+
+      a:hover {
+        color: var(--primary-hover);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 var(--spacing-lg);
+      }
+
+      .card {
+        background: var(--surface-elevated);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
+        padding: var(--spacing-lg);
+        box-shadow: var(--shadow);
+        transition: all var(--transition-base);
+      }
+
+      .card:hover {
+        box-shadow: var(--shadow-md);
+        transform: translateY(-2px);
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: var(--primary);
+        color: var(--text-on-primary);
+        border: none;
+        border-radius: var(--radius);
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all var(--transition-base);
+        text-align: center;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .btn:hover {
+        background: var(--primary-hover);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .btn:active {
+        transform: translateY(0);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .btn-accent {
+        background: var(--accent);
+        color: var(--text-on-accent);
+      }
+
+      .btn-accent:hover {
+        background: var(--accent-dark);
+      }
+
+      main {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background: var(--gradient-primary); color: white; box-shadow: var(--shadow-lg); position: sticky; top: 0; z-index: 100;">
+      <div class="container">
+        <nav style="display: flex; justify-content: space-between; align-items: center; padding: var(--spacing-lg) 0;">
+          <h1 style="font-size: 1.75rem; font-weight: 800; letter-spacing: -0.025em;">
+            <a href="/" style="color: white; text-decoration: none;">
+              CESSA Vault
+            </a>
+          </h1>
+          <div style="display: flex; gap: var(--spacing-lg); align-items: center;">
+            <a href="https://github.com/MohammadaminKafi/cessa-vault" target="_blank" style="color: white; font-weight: 600; padding: 0.5rem 1rem; background: rgba(255, 255, 255, 0.15); border-radius: var(--radius); transition: background var(--transition-base); backdrop-filter: blur(10px);" onmouseover="this.style.background='rgba(255, 255, 255, 0.25)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.15)'">GitHub</a>
+            <ThemeToggle client:load />
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <main>
+      <slot />
+    </main>
+
+    <footer style="background: var(--surface); margin-top: var(--spacing-3xl); padding: var(--spacing-2xl) 0; border-top: 2px solid var(--border);">
+      <div class="container">
+        <div style="text-align: center; color: var(--text-secondary);">
+          <p style="margin-bottom: var(--spacing-sm); font-weight: 500;">&copy; {new Date().getFullYear()} CESSA Vault</p>
+          <p style="font-size: 0.9rem;">Open source university material archive • Built with ❤️ by ☕</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

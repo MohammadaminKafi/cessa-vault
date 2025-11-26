@@ -1,0 +1,477 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DepartmentCard from '../components/DepartmentCard';
+import { scanDataDirectory, getDeptDisplayName } from '../utils/dataScanner';
+
+// Scan the data directory to get all departments
+const departments = scanDataDirectory();
+---
+
+<Layout title="Home" description="Browse university course materials by department">
+  <div class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to CESSA Vault</h1>
+        <p class="hero-description">
+          Effortlessly explore, browse, and download course content—all powered by CESSA.
+        </p>
+        <p class="hero-description">
+          Dive in by choosing your department.
+        </p>
+      </div>
+    </div>
+    <div class="hero-decoration">
+      <div class="decoration-circle decoration-circle-1"></div>
+      <div class="decoration-circle decoration-circle-2"></div>
+      <div class="decoration-circle decoration-circle-3"></div>
+    </div>
+  </div>
+
+  <div class="container main-content">
+    <section class="departments-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-icon">📚</span>
+          Available Departments
+        </h2>
+        <p class="section-description">
+          Select a department to explore course materials
+        </p>
+      </div>
+      
+      {departments.length === 0 ? (
+        <div class="empty-state">
+          <div class="empty-icon">📂</div>
+          <h3>No departments found</h3>
+          <p>Add materials to the <code>public/data/</code> directory to get started.</p>
+        </div>
+      ) : (
+        <>
+          <div class="search-container">
+            <input
+              type="text"
+              id="dept-search"
+              class="dept-search-input"
+              placeholder="🔍 Search departments..."
+            />
+          </div>
+          <div class="departments-grid" id="departments-grid">
+            {departments.map((dept) => (
+              <DepartmentCard
+                client:load
+                name={getDeptDisplayName(dept)}
+                href={`/${dept}/`}
+                description={getDeptDisplayName(dept)}
+              />
+            ))}
+          </div>
+        </>
+      )}
+    </section>
+
+    <section class="features-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-icon">✨</span>
+          About CESSA Vault
+        </h2>
+      </div>
+      
+      <p class="features-intro">
+        CESSA Vault is a centralized, student-built platform from the Computer Engineering Students’ Scientific Association, offering organized access to course materials by department, course, instructor, and type.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3 class="feature-title">Organized Structure</h3>
+          <p class="feature-description">
+            Clear hierarchy by department, course, instructor, and material type for easy navigation
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3 class="feature-title">Advanced Search</h3>
+          <p class="feature-description">
+            Filter and search through materials with powerful search and filtering capabilities
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-title">Lightning Fast</h3>
+          <p class="feature-description">
+            Static site architecture ensures instant loading and seamless browsing experience
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3 class="feature-title">Free Access</h3>
+          <p class="feature-description">
+            All materials are freely accessible and can be downloaded for offline study
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3 class="feature-title">Responsive Design</h3>
+          <p class="feature-description">
+            Works seamlessly across all devices - desktop, tablet, and mobile
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3 class="feature-title">Secure & Reliable</h3>
+          <p class="feature-description">
+            Built with modern web technologies for security and reliability
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>
+
+<script>
+  // Department search functionality
+  const searchInput = document.getElementById('dept-search') as HTMLInputElement;
+  const departmentsGrid = document.getElementById('departments-grid');
+  
+  if (searchInput && departmentsGrid) {
+    searchInput.addEventListener('input', (e) => {
+      const searchTerm = (e.target as HTMLInputElement).value.toLowerCase();
+      const cards = departmentsGrid.querySelectorAll('a');
+      
+      cards.forEach((card) => {
+        const cardText = card.textContent?.toLowerCase() || '';
+        if (cardText.includes(searchTerm)) {
+          (card as HTMLElement).style.display = 'block';
+        } else {
+          (card as HTMLElement).style.display = 'none';
+        }
+      });
+    });
+  }
+</script>
+
+<style>
+  .main-content {
+    padding-top: var(--spacing-3xl);
+    padding-bottom: var(--spacing-3xl);
+  }
+
+  /* Hero Section */
+  .hero {
+    position: relative;
+    background: var(--gradient-hero);
+    color: white;
+    padding: var(--spacing-3xl) 0;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--radius-full);
+    margin-bottom: var(--spacing-lg);
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .badge-icon {
+    font-size: 1.2rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 900;
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .hero-description {
+    font-size: clamp(1.1rem, 2vw, 1.35rem);
+    max-width: 900px;
+    margin: 0 auto var(--spacing-xl);
+    opacity: 0.95;
+    line-height: 1.7;
+  }
+
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-2xl);
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--accent-300);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    font-weight: 500;
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 3rem;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .hero-decoration {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  .decoration-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+  }
+
+  .decoration-circle-1 {
+    width: 600px;
+    height: 600px;
+    top: -200px;
+    right: -200px;
+    background: radial-gradient(circle, rgba(250, 204, 21, 0.15), transparent);
+  }
+
+  .decoration-circle-2 {
+    width: 400px;
+    height: 400px;
+    bottom: -150px;
+    left: -100px;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.15), transparent);
+  }
+
+  .decoration-circle-3 {
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(234, 179, 8, 0.1), transparent);
+  }
+
+  /* Section Styling */
+  .departments-section {
+    margin-bottom: var(--spacing-3xl);
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .section-title {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .title-icon {
+    font-size: 2rem;
+  }
+
+  .section-description {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .search-container {
+    max-width: 600px;
+    margin: 0 auto var(--spacing-xl);
+  }
+
+  .dept-search-input {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: var(--radius-lg);
+    background: var(--surface-elevated);
+    color: var(--text-primary);
+    transition: all var(--transition-base);
+    font-family: var(--font-sans);
+  }
+
+  .dept-search-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px var(--primary-100);
+    transform: translateY(-2px);
+  }
+
+  .dept-search-input::placeholder {
+    color: var(--text-tertiary);
+  }
+
+  .departments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+  }
+
+  .empty-state {
+    background: var(--surface);
+    border: 2px dashed var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-3xl);
+    text-align: center;
+    color: var(--text-secondary);
+  }
+
+  .empty-icon {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-md);
+    opacity: 0.5;
+  }
+
+  .empty-state h3 {
+    color: var(--text);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.5rem;
+  }
+
+  .empty-state code {
+    background: var(--background);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    color: var(--primary);
+    font-size: 0.9rem;
+  }
+
+  /* Features Section */
+  .features-section {
+    background: var(--gradient-card);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-3xl);
+    border: 1px solid var(--border-light);
+  }
+
+  .features-intro {
+    text-align: center;
+    color: var(--text-secondary);
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto var(--spacing-2xl);
+    font-size: 1.05rem;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+  }
+
+  .feature-card {
+    background: var(--surface-elevated);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    transition: all var(--transition-base);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-300);
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-md);
+    display: inline-block;
+  }
+
+  .feature-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+    color: var(--text-primary);
+  }
+
+  .feature-description {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      padding: var(--spacing-2xl) 0;
+    }
+
+    .hero-stats {
+      gap: var(--spacing-md);
+    }
+
+    .stat-divider {
+      display: none;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+    }
+
+    .departments-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .features-section {
+      padding: var(--spacing-xl);
+    }
+
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .section-title {
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+  }
+</style>

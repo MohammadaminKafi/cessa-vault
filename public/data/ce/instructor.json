@@ -1,0 +1,212 @@
+{
+  "amiri":{
+    "displayName":"Mina Amiri",
+    "farsiName":"مینا امیری",
+    "email":"m_amiri@iut.ac.ir",
+    "web":"NULL"
+  },
+  "izadi":{
+    "displayName":"Iman Izadi",
+    "farsiName":"ایمان ایزدی",
+    "email":"iman.izadi@iut.ac.ir",
+    "web":"NULL"
+  },
+  "basiri":{
+    "displayName":"Alireza Basiri",
+    "farsiName":"علیرضا بصیری",
+    "email":"basiri@iut.ac.ir",
+    "web":"NULL"
+  },
+  "baghoolizadeh":{
+    "displayName":"Shirin Baghoolizadeh",
+    "farsiName":"شیرین بقولی زاده",
+    "email":"baghoolizadeh@iut.ac.ir",
+    "web":"NULL"
+  },
+  "palhang":{
+    "displayName":"Maziar Palhang",
+    "farsiName":"مازیار پالهنگ",
+    "email":"palhang@iut.ac.ir",
+    "web":"NULL"
+  },
+  "hoseini":{
+    "displayName":"Samaneh Hoseini",
+    "farsiName":"سمانه حسینی",
+    "email":"samaneh.hoseini@iut.ac.ir",
+    "web":"NULL"
+  },
+  "hakim":{
+    "displayName":"HamidReza Hakim Davoudi",
+    "farsiName":"حمیدرضا حکیم داوودی",
+    "email":"hakim@iut.ac.ir",
+    "web":"NULL"
+  },
+  "heidarpour":{
+    "displayName":"MohammadReza HeidarPour",
+    "farsiName":"محمدرضا حیدرپور",
+    "email":"mrheidar@iut.ac.ir",
+    "web":"NULL"
+  },
+  "khorsandi":{
+    "displayName":"Amir Khorsandi",
+    "farsiName":"امیر خرسندی",
+    "email":"khorsandi@iut.ac.ir",
+    "web":"NULL"
+  },
+  "khosraviFard":{
+    "displayName":"MohammadAli Khosravi Fard",
+    "farsiName":"محمدعلی خسروی فرد",
+    "email":"khosravi@iut.ac.ir",
+    "web":"NULL"
+  },
+  "khalili":{
+    "displayName":"Mojtaba Khalili",
+    "farsiName":"مجتبی خلیلی",
+    "email":"m.khalili@iut.ac.ir",
+    "web":"NULL"
+  },
+  "dakhilallian":{
+    "displayName":"Mohammad Dakhil Allian",
+    "farsiName":"محمد دخیل علیان",
+    "email":"mdalian@iut.ac.ir",
+    "web":"NULL"
+  },
+  "deldar":{
+    "displayName":"Fatemeh Deldar",
+    "farsiName":"فاطمه دلدار",
+    "email":"deldar@iut.ac.ir",
+    "web":"NULL"
+  },
+  "zahabi":{
+    "displayName":"Seyed Jalal Zahabi",
+    "farsiName":"سید جلال ذهبی",
+    "email":"zahabi@iut.ac.ir",
+    "web":"NULL"
+  },
+  "rouhani":{
+    "displayName":"Ehsan Rouhani",
+    "farsiName":"احسان روحانی",
+    "email":"erouhani@iut.ac.ir",
+    "web":"NULL"
+  },
+  "zali":{
+    "displayName":"Zeinab Zali",
+    "farsiName":"زینب زالی",
+    "email":"zali@iut.ac.ir",
+    "web":"NULL"
+  },
+  "safayani":{
+    "displayName":"Mehran Safayani",
+    "farsiName":"مهران صفایانی",
+    "email":"safayani@iut.ac.ir",
+    "web":"NULL"
+  },
+  "fanian":{
+    "displayName":"Ali Fanian",
+    "farsiName":"علی فانیان",
+    "email":"a.fanian@iut.ac.ir",
+    "web":"NULL"
+  },
+  "falsafain":{
+    "displayName":"Hossein Falsafain",
+    "farsiName":"حسین فلسفین",
+    "email":"h.falsafain@iut.ac.ir",
+    "web":"NULL"
+  },
+  "ghadiri":{
+    "displayName":"Naser Ghadiri Modarres",
+    "farsiName":"ناصر قدیری مدرس",
+    "email":"nghadiri@iut.ac.ir",
+    "web":"NULL"
+  },
+  "karimi":{
+    "displayName":"Nader Karimi",
+    "farsiName":"نادر کریمی",
+    "email":"nader.karimi@iut.ac.ir",
+    "web":"NULL"
+  },
+  "karimiafshar":{
+    "displayName":"Aref Karimi Afshar",
+    "farsiName":"عارف کریمی افشار",
+    "email":"A.karimiafshar@iut.ac.ir",
+    "web":"NULL"
+  },
+  "maleki":{
+    "displayName":"Zeinab Maleki",
+    "farsiName":"زینب مالکی",
+    "email":"zmaleki@iut.ac.ir",
+    "web":"NULL"
+  },
+  "mahmoudzadeh":{
+    "displayName":"Elham Mahmoudzadeh",
+    "farsiName":"الهام محمودزاده",
+    "email":"mahmoudzadeh@iut.ac.ir",
+    "web":"NULL"
+  },
+  "manshaei":{
+    "displayName":"MohammadHossein Manshaei",
+    "farsiName":"محمدحسین منشئی",
+    "email":"manshaei@iut.ac.ir",
+    "web":"NULL"
+  },
+  "mouzarani":{
+    "displayName":"Maryam Mouzarani",
+    "farsiName":"مریم موزرانی",
+    "email":"mouzarani@iut.ac.ir",
+    "web":"NULL"
+  },
+  "mirzaei":{
+    "displayName":"AbdolReza Mirzaei",
+    "farsiName":"عبدالرضا میرزایی",
+    "email":"mirzaei@iut.ac.ir",
+    "web":"NULL"
+  },
+  "nabi":{
+    "displayName":"Majid Nabi",
+    "farsiName":"مجتبی نبی",
+    "email":"nabi@iut.ac.ir",
+    "web":"NULL"
+  },
+  "hashemi":{
+    "displayName":"MasoudReza Hashemi",
+    "farsiName":"مسعودرضا هاشمی",
+    "email":"hashemim@iut.ac.ir",
+    "web":"NULL"
+  },
+  "akhavan":{
+    "displayName":"Amir Akhavan",
+    "farsiName":"امیر اخوان",
+    "email":"aakhavan@iut.ac.ir",
+    "web":"NULL"
+  },
+  "omoumi":{
+    "displayName":"Masoud Omoumi",
+    "farsiName":"مسعود عمومی",
+    "email":"omoomi@iut.ac.ir",
+    "web":"NULL"
+  },
+  "mahdavi":{
+    "displayName":"Mehdi Mahdavi",
+    "farsiName":"مهدی مهدوی",
+    "email":"m_mahdavi@iut.ac.ir",
+    "web":"NULL"
+  },
+  "safaeipour":{
+    "displayName":"Hoda SafaeiPour",
+    "farsiName":"هدی صفایی‌پور",
+    "email":"",
+    "web":"NULL"
+  },
+  "iranidoust":{
+    "displayName":"Ali Iranidoust",
+    "farsiName":"علی ایرانی‌دوست",
+    "email":"",
+    "web":"NULL"
+  },
+  "javadi":{
+    "displayName":"Ramin Javadi",
+    "farsiName":"رامین جوادی",
+    "email":"",
+    "web":"NULL"
+  }
+}

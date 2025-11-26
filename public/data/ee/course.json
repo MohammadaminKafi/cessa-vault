@@ -1,0 +1,1758 @@
+{
+  "electric_circuits_lab": {
+    "displayName": "Electric Circuits Lab",
+    "farsiName": "آزمایشگاه مدارهای الکتریکی",
+    "code": "1710201",
+    "aliases": [
+      "Electric Circuits Lab",
+      "Circuits Lab",
+      "آز مدارهای الکتریکی",
+      "آزمایشگاه مدار ۱",
+      "آزمایشگاه مدارهای برق"
+    ]
+  },
+  "electric_circuits_ii": {
+    "displayName": "Electric Circuits II",
+    "farsiName": "مدارهای الکتریکی ۲",
+    "code": "1710203",
+    "aliases": [
+      "Electric Circuits II",
+      "Electric Circuits 2",
+      "Circuits II",
+      "Circuits 2",
+      "مدارهای الکتریکی ۲",
+      "مدار ۲"
+    ]
+  },
+  "electrical_safety_principles_workshop": {
+    "displayName": "Electrical Safety Principles Workshop",
+    "farsiName": "کارگاه اصول ایمنی برق",
+    "code": "1710204",
+    "aliases": [
+      "Electrical Safety Principles Workshop",
+      "Electrical Safety Workshop",
+      "Workshop on Electrical Safety",
+      "کارگاه ایمنی برق",
+      "اصول ایمنی برق"
+    ]
+  },
+  "electric_circuits_i": {
+    "displayName": "Electric Circuits I",
+    "farsiName": "مدارهای الکتریکی ۱",
+    "code": "1710217",
+    "aliases": [
+      "Electric Circuits I",
+      "Electric Circuits 1",
+      "Circuits I",
+      "Circuits 1",
+      "مدارهای الکتریکی ۱",
+      "مدار ۱"
+    ]
+  },
+  "electrical_engineering_fundamentals": {
+    "displayName": "Electrical Engineering Fundamentals",
+    "farsiName": "مبانی مهندسی برق",
+    "code": "1710250",
+    "aliases": [
+      "Electrical Engineering Fundamentals",
+      "Fundamentals of Electrical Engineering",
+      "EE Fundamentals",
+      "مبانی برق",
+      "مبانی مهندسی الکتریک"
+    ]
+  },
+  "robotics_lab": {
+    "displayName": "Robotics Lab",
+    "farsiName": "آزمایشگاه رباتیک",
+    "code": "1710300",
+    "aliases": [
+      "Robotics Lab",
+      "Robot Lab",
+      "آز رباتیک",
+      "آزمایشگاه روبوتیک"
+    ]
+  },
+  "industrial_electronics_lab": {
+    "displayName": "Industrial Electronics Lab",
+    "farsiName": "آزمایشگاه الکترونیک صنعتی",
+    "code": "1710404",
+    "aliases": [
+      "Industrial Electronics Lab",
+      "آز الکترونیک صنعتی",
+      "آزمایشگاه الکترونیک صنعتی"
+    ]
+  },
+  "industrial_electronics": {
+    "displayName": "Industrial Electronics",
+    "farsiName": "الکترونیک صنعتی",
+    "code": "1710417",
+    "aliases": [
+      "Industrial Electronics",
+      "Power Electronics (Industrial)",
+      "الکترونیک صنعتی",
+      "الکترونیک قدرت صنعتی"
+    ]
+  },
+  "electronics_i": {
+    "displayName": "Electronics I",
+    "farsiName": "الکترونیک ۱",
+    "code": "1712212",
+    "aliases": [
+      "Electronics I",
+      "Electronics 1",
+      "الکترونیک ۱",
+      "الکترو ۱",
+      "Basic Electronics"
+    ]
+  },
+  "principles_of_electronics": {
+    "displayName": "Principles of Electronics",
+    "farsiName": "اصول الکترونیک",
+    "code": "1712236",
+    "aliases": [
+      "Principles of Electronics",
+      "Intro to Electronics",
+      "اصول الکترونیک",
+      "مبانی الکترونیک"
+    ]
+  },
+  "fundamentals_of_microelectronics_lab": {
+    "displayName": "Fundamentals of Microelectronics Lab",
+    "farsiName": "آزمایشگاه مبانی میکروالکترونیک",
+    "code": "1712237",
+    "aliases": [
+      "Fundamentals of Microelectronics Lab",
+      "Microelectronics Lab",
+      "آز میکروالکترونیک",
+      "آز مبانی میکروالکترونیک"
+    ]
+  },
+  "applied_industrial_electronics": {
+    "displayName": "Applied Industrial Electronics",
+    "farsiName": "الکترونیک صنعتی کاربردی",
+    "code": "1712240",
+    "aliases": [
+      "Applied Industrial Electronics",
+      "Advanced Industrial Electronics",
+      "الکترونیک صنعتی کاربردی"
+    ]
+  },
+  "analog_and_digital_electronics_ii": {
+    "displayName": "Analog and Digital Electronics II",
+    "farsiName": "الکترونیک آنالوگ و دیجیتال ۲",
+    "code": "1712304",
+    "aliases": [
+      "Analog and Digital Electronics II",
+      "Analog and Digital Electronics 2",
+      "Mixed-Signal Electronics II",
+      "الکترونیک آنالوگ و دیجیتال ۲"
+    ]
+  },
+  "pulse_techniques": {
+    "displayName": "Pulse Techniques",
+    "farsiName": "تکنیک‌های پالس",
+    "code": "1712312",
+    "aliases": [
+      "Pulse Techniques",
+      "Pulse Technology",
+      "تکنیک پالس",
+      "مدارهای پالسی"
+    ]
+  },
+  "analog_and_digital_electronics_i": {
+    "displayName": "Analog and Digital Electronics I",
+    "farsiName": "الکترونیک آنالوگ و دیجیتال ۱",
+    "code": "1712325",
+    "aliases": [
+      "Analog and Digital Electronics I",
+      "Analog and Digital Electronics 1",
+      "Mixed-Signal Electronics I",
+      "الکترونیک آنالوگ و دیجیتال ۱"
+    ]
+  },
+  "pulse_technique_lab": {
+    "displayName": "Pulse Technique Lab",
+    "farsiName": "آزمایشگاه تکنیک پالس",
+    "code": "1712404",
+    "aliases": [
+      "Pulse Technique Lab",
+      "Pulse Lab",
+      "آز تکنیک پالس",
+      "آز مدارهای پالسی"
+    ]
+  },
+  "analog_and_digital_electronics_lab_i": {
+    "displayName": "Analog and Digital Electronics Lab I",
+    "farsiName": "آزمایشگاه الکترونیک آنالوگ و دیجیتال ۱",
+    "code": "1712407",
+    "aliases": [
+      "Analog and Digital Electronics Lab I",
+      "Analog/Digital Lab I",
+      "آز الکترونیک آنالوگ و دیجیتال ۱"
+    ]
+  },
+  "analog_and_digital_electronics_lab_ii": {
+    "displayName": "Analog and Digital Electronics Lab II",
+    "farsiName": "آزمایشگاه الکترونیک آنالوگ و دیجیتال ۲",
+    "code": "1712412",
+    "aliases": [
+      "Analog and Digital Electronics Lab II",
+      "Analog/Digital Lab II",
+      "آز الکترونیک آنالوگ و دیجیتال ۲"
+    ]
+  },
+  "high_frequency_circuit_design": {
+    "displayName": "High Frequency Circuit Design",
+    "farsiName": "طراحی مدارهای فرکانس بالا",
+    "code": "1712424",
+    "aliases": [
+      "High Frequency Circuit Design",
+      "RF Circuit Design",
+      "طراحی مدارهای RF",
+      "مدارهای فرکانس بالا"
+    ]
+  },
+  "fundamentals_of_biomedical_engineering": {
+    "displayName": "Fundamentals of Biomedical Engineering",
+    "farsiName": "مبانی مهندسی پزشکی",
+    "code": "1712432",
+    "aliases": [
+      "Fundamentals of Biomedical Engineering",
+      "Intro to Biomedical Engineering",
+      "Biomedical Engineering Fundamentals",
+      "مبانی مهندسی پزشکی",
+      "بیومدیکال مقدماتی"
+    ]
+  },
+  "special_topics_in_electronics": {
+    "displayName": "Special Topics in Electronics",
+    "farsiName": "موضوعات ویژه در الکترونیک",
+    "code": "1712436",
+    "aliases": [
+      "Special Topics in Electronics",
+      "Topics in Electronics",
+      "Electronics Special Topics",
+      "موضوعات خاص الکترونیک"
+    ]
+  },
+  "physical_electronics": {
+    "displayName": "Physical Electronics",
+    "farsiName": "الکترونیک فیزیکی",
+    "code": "1712444",
+    "aliases": [
+      "Physical Electronics",
+      "Solid-State Electronics",
+      "الکترونیک فیزیکی",
+      "الکترونیک حالت جامد (مقدماتی)"
+    ]
+  },
+  "filters_and_synthesis": {
+    "displayName": "Filters and Synthesis",
+    "farsiName": "فیلترها و سنتز مدار",
+    "code": "1712452",
+    "aliases": [
+      "Filters and Synthesis",
+      "Filter Design and Synthesis",
+      "طراحی فیلتر و سنتز",
+      "سنتز مدار"
+    ]
+  },
+  "electric_machines_i": {
+    "displayName": "Electric Machines I",
+    "farsiName": "ماشین‌های الکتریکی ۱",
+    "code": "1714297",
+    "aliases": [
+      "Electric Machines I",
+      "Electric Machines 1",
+      "Machines I",
+      "Machines 1",
+      "ماشین‌های الکتریکی ۱",
+      "ماشین ۱"
+    ]
+  },
+  "electric_energy_systems_analysis_i": {
+    "displayName": "Electric Energy Systems Analysis I",
+    "farsiName": "آنالیز سیستم‌های انرژی الکتریکی ۱",
+    "code": "1714303",
+    "aliases": [
+      "Electric Energy Systems Analysis I",
+      "Electric Energy Systems Analysis 1",
+      "Power Systems Analysis I",
+      "آنالیز سیستم قدرت ۱",
+      "تحلیل سیستم‌های انرژی الکتریکی ۱"
+    ]
+  },
+  "electric_machines_lab_i": {
+    "displayName": "Electric Machines Lab I",
+    "farsiName": "آزمایشگاه ماشین‌های الکتریکی ۱",
+    "code": "1714304",
+    "aliases": [
+      "Electric Machines Lab I",
+      "Machines Lab I",
+      "آز ماشین‌های الکتریکی ۱",
+      "آز ماشین ۱"
+    ]
+  },
+  "electric_energy_systems_analysis_ii": {
+    "displayName": "Electric Energy Systems Analysis II",
+    "farsiName": "آنالیز سیستم‌های انرژی الکتریکی ۲",
+    "code": "1714308",
+    "aliases": [
+      "Electric Energy Systems Analysis II",
+      "Electric Energy Systems Analysis 2",
+      "Power Systems Analysis II",
+      "آنالیز سیستم قدرت ۲",
+      "تحلیل سیستم‌های انرژی الکتریکی ۲"
+    ]
+  },
+  "electric_machines_iii": {
+    "displayName": "Electric Machines III",
+    "farsiName": "ماشین‌های الکتریکی ۳",
+    "code": "1714320",
+    "aliases": [
+      "Electric Machines III",
+      "Electric Machines 3",
+      "Machines III",
+      "Machines 3",
+      "ماشین‌های الکتریکی ۳",
+      "ماشین ۳"
+    ]
+  },
+  "introduction_to_power_electronic": {
+    "displayName": "Introduction to Power Electronic",
+    "farsiName": "مقدمه‌ای بر الکترونیک قدرت",
+    "code": "1714328",
+    "aliases": [
+      "Introduction to Power Electronic",
+      "Introduction to Power Electronics",
+      "Power Electronics Intro",
+      "مقدمه الکترونیک قدرت",
+      "الکترونیک قدرت مقدماتی"
+    ]
+  },
+  "electric_machines_ii": {
+    "displayName": "Electric Machines II",
+    "farsiName": "ماشین‌های الکتریکی ۲",
+    "code": "1714396",
+    "aliases": [
+      "Electric Machines II",
+      "Electric Machines 2",
+      "Machines II",
+      "Machines 2",
+      "ماشین‌های الکتریکی ۲",
+      "ماشین ۲"
+    ]
+  },
+  "high_voltage_and_insulation_lab": {
+    "displayName": "High Voltage and Insulation Lab",
+    "farsiName": "آزمایشگاه فشار قوی و عایق‌ها",
+    "code": "1714402",
+    "aliases": [
+      "High Voltage and Insulation Lab",
+      "High Voltage Lab",
+      "آز فشار قوی",
+      "آزمایشگاه عایق و فشار قوی"
+    ]
+  },
+  "electric_energy_systems_lab": {
+    "displayName": "Electric Energy Systems Lab",
+    "farsiName": "آزمایشگاه سیستم‌های انرژی الکتریکی",
+    "code": "1714403",
+    "aliases": [
+      "Electric Energy Systems Lab",
+      "Power Systems Lab",
+      "آز سیستم‌های انرژی الکتریکی",
+      "آز سیستم قدرت"
+    ]
+  },
+  "electric_machines_lab_ii": {
+    "displayName": "Electric Machines Lab II",
+    "farsiName": "آزمایشگاه ماشین‌های الکتریکی ۲",
+    "code": "1714406",
+    "aliases": [
+      "Electric Machines Lab II",
+      "Machines Lab II",
+      "آز ماشین‌های الکتریکی ۲",
+      "آز ماشین ۲"
+    ]
+  },
+  "electric_energy_distribution_systems": {
+    "displayName": "Electric Energy Distribution Systems",
+    "farsiName": "سیستم‌های توزیع انرژی الکتریکی",
+    "code": "1714407",
+    "aliases": [
+      "Electric Energy Distribution Systems",
+      "Power Distribution Systems",
+      "سیستم‌های توزیع برق",
+      "سیستم توزیع انرژی الکتریکی"
+    ]
+  },
+  "high_voltage_and_insulation": {
+    "displayName": "High Voltage and Insulation",
+    "farsiName": "فشار قوی و عایق‌ها",
+    "code": "1714417",
+    "aliases": [
+      "High Voltage and Insulation",
+      "High Voltage Engineering",
+      "مهندسی فشار قوی",
+      "فشار قوی و عایق"
+    ]
+  },
+  "electrical_installations": {
+    "displayName": "Electrical Installations",
+    "farsiName": "تأسیسات الکتریکی",
+    "code": "1714420",
+    "aliases": [
+      "Electrical Installations",
+      "Building Electrical Installations",
+      "تأسیسات برق",
+      "تأسیسات الکتریکی ساختمان"
+    ]
+  },
+  "special_machines": {
+    "displayName": "Special Machines",
+    "farsiName": "ماشین‌های ویژه",
+    "code": "1714425",
+    "aliases": [
+      "Special Machines",
+      "Special Electrical Machines",
+      "ماشین‌های خاص",
+      "ماشین‌های ویژه الکتریکی"
+    ]
+  },
+  "relaying_and_protection": {
+    "displayName": "Relaying and Protection",
+    "farsiName": "رله و حفاظت سیستم‌های قدرت",
+    "code": "1714428",
+    "aliases": [
+      "Relaying and Protection",
+      "Protection Systems",
+      "Power System Protection",
+      "رله و حفاظت",
+      "حفاظت سیستم قدرت"
+    ]
+  },
+  "illumination_engineering": {
+    "displayName": "Illumination Engineering",
+    "farsiName": "مهندسی روشنایی",
+    "code": "1714449",
+    "aliases": [
+      "Illumination Engineering",
+      "Lighting Engineering",
+      "مهندسی روشنایی",
+      "طراحی روشنایی"
+    ]
+  },
+  "electric_energy_management": {
+    "displayName": "Electric Energy Management",
+    "farsiName": "مدیریت انرژی الکتریکی",
+    "code": "1714450",
+    "aliases": [
+      "Electric Energy Management",
+      "Energy Management (Electric)",
+      "مدیریت انرژی برق",
+      "مدیریت انرژی الکتریکی"
+    ]
+  },
+  "electric_energy_generation": {
+    "displayName": "Electric Energy Generation",
+    "farsiName": "تولید انرژی الکتریکی",
+    "code": "1714452",
+    "aliases": [
+      "Electric Energy Generation",
+      "Power Generation",
+      "تولید برق",
+      "تولید انرژی الکتریکی"
+    ]
+  },
+  "electric_drivers": {
+    "displayName": "Electric Drivers",
+    "farsiName": "درایوهای الکتریکی",
+    "code": "1714468",
+    "aliases": [
+      "Electric Drivers",
+      "Electrical Drives",
+      "Motor Drives",
+      "درایو الکتریکی",
+      "درایو موتور"
+    ]
+  },
+  "electric_drivers_lab": {
+    "displayName":": "Electric Drivers Lab",
+    "farsiName": "آزمایشگاه درایوهای الکتریکی",
+    "code": "1714469",
+    "aliases": [
+      "Electric Drivers Lab",
+      "Drives Lab",
+      "آز درایو الکتریکی",
+      "آزمایشگاه درایو"
+    ]
+  },
+  "power_electronic_applications": {
+    "displayName": "Power Electronic Applications",
+    "farsiName": "کاربردهای الکترونیک قدرت",
+    "code": "1714470",
+    "aliases": [
+      "Power Electronic Applications",
+      "Applications of Power Electronics",
+      "کاربرد الکترونیک قدرت"
+    ]
+  },
+  "renewable_energy_systems_and_dispersed_resources": {
+    "displayName": "Renewable Energy Systems and Dispersed Resources",
+    "farsiName": "سیستم‌های انرژی تجدیدپذیر و منابع پراکنده",
+    "code": "1714480",
+    "aliases": [
+      "Renewable Energy Systems and Dispersed Resources",
+      "Distributed Generation and Renewable Energy",
+      "سیستم‌های انرژی تجدیدپذیر",
+      "منابع تولید پراکنده",
+      "DG and RES"
+    ]
+  },
+  "electrical_safety_and_grounding_systems": {
+    "displayName": "Electrical Safety and Grounding Systems",
+    "farsiName": "ایمنی الکتریکی و سیستم‌های زمین",
+    "code": "1714484",
+    "aliases": [
+      "Electrical Safety and Grounding Systems",
+      "Grounding and Electrical Safety",
+      "ایمنی برق و ارتینگ",
+      "سیستم‌های زمین"
+    ]
+  },
+  "power_electronic_lab": {
+    "displayName": "Power Electronic Lab",
+    "farsiName": "آزمایشگاه الکترونیک قدرت",
+    "code": "1714486",
+    "aliases": [
+      "Power Electronic Lab",
+      "Power Electronics Lab",
+      "آز الکترونیک قدرت"
+    ]
+  },
+  "digital_control_systems": {
+    "displayName": "Digital Control Systems",
+    "farsiName": "سیستم‌های کنترل دیجیتال",
+    "code": "1716304",
+    "aliases": [
+      "Digital Control Systems",
+      "Digital Control",
+      "کنترل دیجیتال",
+      "سیستم‌های کنترل دیجیتال"
+    ]
+  },
+  "linear_control_systems": {
+    "displayName": "Linear Control Systems",
+    "farsiName": "سیستم‌های کنترل خطی",
+    "code": "1716312",
+    "aliases": [
+      "Linear Control Systems",
+      "Linear Control",
+      "کنترل خطی",
+      "سیستم کنترل خطی"
+    ]
+  },
+  "linear_control_systems_lab": {
+    "displayName": "Linear Control Systems Lab",
+    "farsiName": "آزمایشگاه سیستم‌های کنترل خطی",
+    "code": "1716401",
+    "aliases": [
+      "Linear Control Systems Lab",
+      "Control Lab I",
+      "آز کنترل خطی"
+    ]
+  },
+  "neural_networks": {
+    "displayName": "Neural Networks",
+    "farsiName": "شبکه‌های عصبی",
+    "code": "1716405",
+    "aliases": [
+      "Neural Networks",
+      "NN",
+      "شبکه‌های عصبی مصنوعی",
+      "هوش محاسباتی (شبکه عصبی)"
+    ]
+  },
+  "industrial_automation": {
+    "displayName": "Industrial Automation",
+    "farsiName": "اتوماسیون صنعتی",
+    "code": "1716408",
+    "aliases": [
+      "Industrial Automation",
+      "Industrial Control and Automation",
+      "اتوماسیون صنعتی",
+      "اتوماسیون کارخانجات"
+    ]
+  },
+  "energy_systems_optimization_and_control": {
+    "displayName": "Energy Systems Optimization and Control",
+    "farsiName": "بهینه‌سازی و کنترل سیستم‌های انرژی",
+    "code": "1716409",
+    "aliases": [
+      "Energy Systems Optimization and Control",
+      "Optimization and Control of Energy Systems",
+      "بهینه‌سازی سیستم انرژی",
+      "کنترل سیستم‌های انرژی"
+    ]
+  },
+  "instrumentation": {
+    "displayName": "Instrumentation",
+    "farsiName": "ابزار دقیق",
+    "code": "1716412",
+    "aliases": [
+      "Instrumentation",
+      "Industrial Instrumentation",
+      "ابزار دقیق",
+      "سیستم‌های ابزاردقیق"
+    ]
+  },
+  "digital_control_systems_lab": {
+    "displayName": "Digital Control Systems Lab",
+    "farsiName": "آزمایشگاه سیستم‌های کنترل دیجیتال",
+    "code": "1716413",
+    "aliases": [
+      "Digital Control Systems Lab",
+      "Digital Control Lab",
+      "آز کنترل دیجیتال"
+    ]
+  },
+  "intelligent_control_systems": {
+    "displayName": "Intelligent Control Systems",
+    "farsiName": "سیستم‌های کنترل هوشمند",
+    "code": "1716416",
+    "aliases": [
+      "Intelligent Control Systems",
+      "Intelligent Control",
+      "کنترل هوشمند",
+      "سیستم‌های کنترل هوشمند"
+    ]
+  },
+  "control_of_industrial_processes": {
+    "displayName": "Control of Industrial Processes",
+    "farsiName": "کنترل فرایندهای صنعتی",
+    "code": "1716424",
+    "aliases": [
+      "Control of Industrial Processes",
+      "Industrial Process Control",
+      "کنترل فرایند صنعتی",
+      "کنترل فرآیندها"
+    ]
+  },
+  "advanced_control_systems": {
+    "displayName": "Advanced Control Systems",
+    "farsiName": "سیستم‌های کنترل پیشرفته",
+    "code": "1716425",
+    "aliases": [
+      "Advanced Control Systems",
+      "Advanced Control",
+      "کنترل پیشرفته",
+      "سیستم کنترل پیشرفته"
+    ]
+  },
+  "mechatronic_systems": {
+    "displayName": "Mechatronic Systems",
+    "farsiName": "سیستم‌های مکاترونیک",
+    "code": "1716436",
+    "aliases": [
+      "Mechatronic Systems",
+      "Mechatronics",
+      "سیستم‌های مکاترونیکی",
+      "مکاترونیک"
+    ]
+  },
+  "industrial_automation_lab": {
+    "displayName": "Industrial Automation Lab",
+    "farsiName": "آزمایشگاه اتوماسیون صنعتی",
+    "code": "1716440",
+    "aliases": [
+      "Industrial Automation Lab",
+      "Automation Lab",
+      "آز اتوماسیون صنعتی"
+    ]
+  },
+  "industrial_processes_control_lab": {
+    "displayName": "Industrial Processes Control Lab",
+    "farsiName": "آزمایشگاه کنترل فرایندهای صنعتی",
+    "code": "1716444",
+    "aliases": [
+      "Industrial Processes Control Lab",
+      "Process Control Lab",
+      "آز کنترل فرایند"
+    ]
+  },
+  "robotics": {
+    "displayName": "Robotics",
+    "farsiName": "رباتیک",
+    "code": "1716448",
+    "aliases": [
+      "Robotics",
+      "Robot Control",
+      "رباتیک",
+      "کنترل ربات"
+    ]
+  },
+  "instrumentation_lab": {
+    "displayName": "Instrumentation Lab",
+    "farsiName": "آزمایشگاه ابزار دقیق",
+    "code": "1716452",
+    "aliases": [
+      "Instrumentation Lab",
+      "Instrument Lab",
+      "آز ابزار دقیق"
+    ]
+  },
+  "power_electronics_control_converters": {
+    "displayName": "Power Electronics Control Converters",
+    "farsiName": "مبدل‌های کنترل قدرت الکترونیک",
+    "code": "1716464",
+    "aliases": [
+      "Power Electronics Control Converters",
+      "Controlled Power Electronic Converters",
+      "مبدل‌های الکترونیک قدرت کنترلی",
+      "Power Converter Control"
+    ]
+  },
+  "special_issue_in_control": {
+    "displayName": "Special Issue in Control",
+    "farsiName": "موضوعات ویژه در کنترل",
+    "code": "1716494",
+    "aliases": [
+      "Special Issue in Control",
+      "Special Topics in Control",
+      "موضوعات خاص کنترل",
+      "کنترل پیشرفته موضوعات ویژه"
+    ]
+  },
+  "signals_and_systems_analysis": {
+    "displayName": "Signals and Systems Analysis",
+    "farsiName": "تحلیل سیگنال‌ها و سیستم‌ها",
+    "code": "1718204",
+    "aliases": [
+      "Signals and Systems Analysis",
+      "Signals and Systems",
+      "سیگنال‌ها و سیستم‌ها",
+      "تحلیل سیگنال و سیستم"
+    ]
+  },
+  "electromagnetics": {
+    "displayName": "Electromagnetics",
+    "farsiName": "الکترومغناطیس",
+    "code": "1718217",
+    "aliases": [
+      "Electromagnetics",
+      "Electromagnetic Fields",
+      "EM",
+      "الکترومغناطیس",
+      "میدان‌های الکترومغناطیسی"
+    ]
+  },
+  "principles_of_communication_systems": {
+    "displayName": "Principles of Communication Systems",
+    "farsiName": "اصول سیستم‌های مخابراتی",
+    "code": "1718303",
+    "aliases": [
+      "Principles of Communication Systems",
+      "Communication Systems",
+      "Comm Systems",
+      "اصول مخابرات",
+      "سیستم‌های مخابراتی"
+    ]
+  },
+  "fields_and_waves": {
+    "displayName": "Fields and Waves",
+    "farsiName": "میدان‌ها و موج‌ها",
+    "code": "1718312",
+    "aliases": [
+      "Fields and Waves",
+      "Electromagnetic Fields and Waves",
+      "میدان و موج",
+      "میدان‌ها و امواج الکترومغناطیسی"
+    ]
+  },
+  "fpga_lab": {
+    "displayName": "FPGA Lab",
+    "farsiName": "آزمایشگاه FPGA",
+    "code": "1718402",
+    "aliases": [
+      "FPGA Lab",
+      "Field Programmable Gate Array Lab",
+      "آز FPGA",
+      "آزمایشگاه fpga"
+    ]
+  },
+  "communication_circuits_lab": {
+    "displayName": "Communication Circuits Lab",
+    "farsiName": "آزمایشگاه مدارهای مخابراتی",
+    "code": "1718404",
+    "aliases": [
+      "Communication Circuits Lab",
+      "Comm Circuits Lab",
+      "آز مدار مخابراتی"
+    ]
+  },
+  "digital_communications_lab": {
+    "displayName": "Digital Communications Lab",
+    "farsiName": "آزمایشگاه مخابرات دیجیتال",
+    "code": "1718406",
+    "aliases": [
+      "Digital Communications Lab",
+      "Digital Comm Lab",
+      "آز مخابرات دیجیتال"
+    ]
+  },
+  "antenna_i": {
+    "displayName": "Antenna I",
+    "farsiName": "آنتن ۱",
+    "code": "1718412",
+    "aliases": [
+      "Antenna I",
+      "Antenna 1",
+      "آنتن ۱",
+      "درس آنتن ۱"
+    ]
+  },
+  "antenna_lab": {
+    "displayName": "Antenna Lab",
+    "farsiName": "آزمایشگاه آنتن",
+    "code": "1718413",
+    "aliases": [
+      "Antenna Lab",
+      "آز آنتن",
+      "آزمایشگاه آنتن و مایکروویو (در برخی برنامه‌ها)"
+    ]
+  },
+  "microwave_and_antenna": {
+    "displayName": "Microwave and Antenna",
+    "farsiName": "مایکروویو و آنتن",
+    "code": "1718414",
+    "aliases": [
+      "Microwave and Antenna",
+      "Microwave & Antenna",
+      "مایکروویو و آنتن",
+      "Microwave/Antenna"
+    ]
+  },
+  "optical_electronics_and_communications_lab": {
+    "displayName": "Optical Electronics and Communications Lab",
+    "farsiName": "آزمایشگاه الکترونیک و مخابرات نوری",
+    "code": "1718415",
+    "aliases": [
+      "Optical Electronics and Communications Lab",
+      "Optical Communications Lab",
+      "آز مخابرات نوری",
+      "آز الکترونیک نوری"
+    ]
+  },
+  "optical_communication_and_electronics": {
+    "displayName": "Optical Communication and Electronics",
+    "farsiName": "مخابرات و الکترونیک نوری",
+    "code": "1718416",
+    "aliases": [
+      "Optical Communication and Electronics",
+      "Optical Communications",
+      "Optical Electronics",
+      "مخابرات نوری",
+      "الکترونیک نوری"
+    ]
+  },
+  "microwaves_i": {
+    "displayName": "Microwaves 1",
+    "farsiName": "مایکروویو ۱",
+    "code": "1718417",
+    "aliases": [
+      "Microwaves 1",
+      "Microwave Engineering I",
+      "Microwave I",
+      "مایکروویو ۱"
+    ]
+  },
+  "communication_circuits": {
+    "displayName": "Communication Circuits",
+    "farsiName": "مدارهای مخابراتی",
+    "code": "1718425",
+    "aliases": [
+      "Communication Circuits",
+      "Comm Circuits",
+      "مدار مخابراتی"
+    ]
+  },
+  "microwave_lab": {
+    "displayName": "Microwave Lab",
+    "farsiName": "آزمایشگاه مایکروویو",
+    "code": "1718428",
+    "aliases": [
+      "Microwave Lab",
+      "آز مایکروویو"
+    ]
+  },
+  "principles_of_wireless_communications": {
+    "displayName": "Principles of Wireless Communications",
+    "farsiName": "اصول مخابرات بی‌سیم",
+    "code": "1718436",
+    "aliases": [
+      "Principles of Wireless Communications",
+      "Wireless Communications",
+      "Wireless Comms",
+      "مخابرات بی‌سیم",
+      "مخابرات سیار (در برخی برنامه‌ها)"
+    ]
+  },
+  "digital_communications": {
+    "displayName": "Digital Communications",
+    "farsiName": "مخابرات دیجیتال",
+    "code": "1718448",
+    "aliases": [
+      "Digital Communications",
+      "Digital Comms",
+      "مخابرات دیجیتال"
+    ]
+  },
+  "fpga": {
+    "displayName": "FPGA",
+    "farsiName": "FPGA",
+    "code": "1718449",
+    "aliases": [
+      "FPGA",
+      "Field Programmable Gate Array",
+      "طراحی FPGA"
+    ]
+  },
+  "digital_signal_processing": {
+    "displayName": "Digital Signal Processing",
+    "farsiName": "پردازش سیگنال دیجیتال",
+    "code": "1718450",
+    "aliases": [
+      "Digital Signal Processing",
+      "DSP",
+      "پردازش سیگنال دیجیتال",
+      "پردازش سیگنال"
+    ]
+  },
+  "digital_signal_processing_lab": {
+    "displayName": "Digital Signal Processing Lab",
+    "farsiName": "آزمایشگاه پردازش سیگنال دیجیتال",
+    "code": "1718452",
+    "aliases": [
+      "Digital Signal Processing Lab",
+      "DSP Lab",
+      "آز DSP",
+      "آزمایشگاه پردازش سیگنال دیجیتال"
+    ]
+  },
+  "physiology": {
+    "displayName": "Physiology",
+    "farsiName": "فیزیولوژی",
+    "code": "1720101",
+    "aliases": [
+      "Physiology",
+      "Human Physiology (for BME)",
+      "فیزیولوژی عمومی",
+      "فیزیولوژی پزشکی"
+    ]
+  },
+  "medical_instrumentation_and_measurement": {
+    "displayName": "Medical Instrumentation and Measurement",
+    "farsiName": "ابزار و اندازه‌گیری پزشکی",
+    "code": "1720115",
+    "aliases": [
+      "Medical Instrumentation and Measurement",
+      "Medical Instrumentation",
+      "ابزار دقیق پزشکی",
+      "ابزار و اندازه‌گیری در پزشکی"
+    ]
+  },
+  "computer_workshop": {
+    "displayName": "Computer Workshop",
+    "farsiName": "کارگاه کامپیوتر",
+    "code": "1730101",
+    "aliases": [
+      "Computer Workshop",
+      "IT Workshop",
+      "کارگاه رایانه",
+      "کارگاه مهارت‌های کامپیوتری"
+    ]
+  },
+  "network_security_lab": {
+    "displayName": "Network Security Lab",
+    "farsiName": "آزمایشگاه امنیت شبکه",
+    "code": "1730108",
+    "aliases": [
+      "Network Security Lab",
+      "آز امنیت شبکه",
+      "آزمایشگاه امنیت اطلاعات (شبکه)"
+    ]
+  },
+  "introduction_to_computer_programming_with_lab": {
+    "displayName": "Introduction to Computer Programming with Lab",
+    "farsiName": "مقدمه‌ای بر برنامه‌نویسی کامپیوتر با آزمایشگاه",
+    "code": "1730115",
+    "aliases": [
+      "Introduction to Computer Programming with Lab",
+      "Intro to Programming with Lab",
+      "مقدمات برنامه‌نویسی با آز",
+      "برنامه‌نویسی مقدماتی با آزمایشگاه"
+    ]
+  },
+  "information_technology_fundamentals": {
+    "displayName": "Information Technology Fundamentals",
+    "farsiName": "مبانی فناوری اطلاعات",
+    "code": "1730120",
+    "aliases": [
+      "Information Technology Fundamentals",
+      "IT Fundamentals",
+      "Fundamentals of IT",
+      "مبانی IT",
+      "مبانی فناوری اطلاعات"
+    ]
+  },
+  "computer_programming": {
+    "displayName": "Computer Programming",
+    "farsiName": "برنامه‌نویسی کامپیوتر",
+    "code": "1730150",
+    "aliases": [
+      "Computer Programming",
+      "Programming",
+      "برنامه‌نویسی",
+      "برنامه‌نویسی کامپیوتری"
+    ]
+  },
+  "basics_of_computer_programming_workshop": {
+    "displayName": "Basics of Computer Programming Workshop",
+    "farsiName": "کارگاه مبانی برنامه‌نویسی کامپیوتر",
+    "code": "1730151",
+    "aliases": [
+      "Basics of Computer Programming Workshop",
+      "Programming Basics Workshop",
+      "کارگاه برنامه‌نویسی مقدماتی"
+    ]
+  },
+  "computer_programming_fundamentals": {
+    "displayName": "Computer Programming Fundamentals",
+    "farsiName": "مبانی برنامه‌نویسی کامپیوتر",
+    "code": "1730155",
+    "aliases": [
+      "Computer Programming Fundamentals",
+      "Programming Fundamentals",
+      "مبانی برنامه‌نویسی",
+      "مبانی برنامه‌نویسی کامپیوتر"
+    ]
+  },
+  "discrete_mathematical_structures": {
+    "displayName": "Discrete Mathematical Structures",
+    "farsiName": "ساختارهای گسسته ریاضی",
+    "code": "1730217",
+    "aliases": [
+      "Discrete Mathematical Structures",
+      "Discrete Math",
+      "ریاضیات گسسته",
+      "ساختارهای گسسته"
+    ]
+  },
+  "foundations_of_data_mining": {
+    "displayName": "Foundations of Data Mining",
+    "farsiName": "مبانی داده‌کاوی",
+    "code": "1730220",
+    "aliases": [
+      "Foundations of Data Mining",
+      "Data Mining Fundamentals",
+      "مبانی داده‌کاوی",
+      "Data Mining Intro"
+    ]
+  },
+  "fundamentals_of_secure_computing": {
+    "displayName": "Fundamentals of Secure Computing",
+    "farsiName": "مبانی محاسبات امن",
+    "code": "1730400",
+    "aliases": [
+      "Fundamentals of Secure Computing",
+      "Secure Computing Fundamentals",
+      "مبانی امنیت محاسبات",
+      "محاسبات امن"
+    ]
+  },
+  "fundamentals_of_cryptography": {
+    "displayName": "Fundamentals of Cryptography",
+    "farsiName": "مبانی رمزنگاری",
+    "code": "1730401",
+    "aliases": [
+      "Fundamentals of Cryptography",
+      "Cryptography Fundamentals",
+      "Crypto Fundamentals",
+      "مبانی رمزنگاری"
+    ]
+  },
+  "secure_software_development": {
+    "displayName": "Secure Software Development",
+    "farsiName": "توسعه نرم‌افزار امن",
+    "code": "1730402",
+    "aliases": [
+      "Secure Software Development",
+      "Secure Software Engineering",
+      "توسعه نرم‌افزار امن",
+      "مهندسی نرم‌افزار امن"
+    ]
+  },
+  "principles_of_computational_intelligence": {
+    "displayName": "Principles of Computational Intelligence",
+    "farsiName": "اصول هوش محاسباتی",
+    "code": "1730403",
+    "aliases": [
+      "Principles of Computational Intelligence",
+      "Computational Intelligence",
+      "هوش محاسباتی",
+      "اصول CI"
+    ]
+  },
+  "computational_intelligence_lab": {
+    "displayName": "Computational Intelligence Lab",
+    "farsiName": "آزمایشگاه هوش محاسباتی",
+    "code": "1730404",
+    "aliases": [
+      "Computational Intelligence Lab",
+      "CI Lab",
+      "آز هوش محاسباتی"
+    ]
+  },
+  "fundamentals_of_robotics": {
+    "displayName": "Fundamentals of Robotics",
+    "farsiName": "مبانی رباتیک",
+    "code": "1730420",
+    "aliases": [
+      "Fundamentals of Robotics",
+      "Intro to Robotics",
+      "مبانی رباتیک",
+      "Robotics Fundamentals"
+    ]
+  },
+  "data_communications_and_computer_networks": {
+    "displayName": "Data Communications and Computer Networks",
+    "farsiName": "مخابرات داده و شبکه‌های کامپیوتری",
+    "code": "1730425",
+    "aliases": [
+      "Data Communications and Computer Networks",
+      "Data Communication and Networks",
+      "Data Comm & Networks",
+      "مخابرات داده و شبکه",
+      "شبکه و مخابرات داده"
+    ]
+  },
+  "basics_of_the_internet_of_things": {
+    "displayName": "Basics of the Internet of Things",
+    "farsiName": "مبانی اینترنت اشیا",
+    "code": "1730430",
+    "aliases": [
+      "Basics of the Internet of Things",
+      "IoT Basics",
+      "Intro to IoT",
+      "مبانی اینترنت اشیا",
+      "اینترنت اشیاء"
+    ]
+  },
+  "basics_of_the_machine_learning": {
+    "displayName": "Basics of the Machine Learning",
+    "farsiName": "مبانی یادگیری ماشین",
+    "code": "1730435",
+    "aliases": [
+      "Basics of the Machine Learning",
+      "Basics of Machine Learning",
+      "Machine Learning Basics",
+      "مبانی یادگیری ماشین",
+      "Intro to ML"
+    ]
+  },
+  "foundations_of_computer_vision": {
+    "displayName": "Foundations of Computer Vision",
+    "farsiName": "مبانی بینایی کامپیوتر",
+    "code": "1730460",
+    "aliases": [
+      "Foundations of Computer Vision",
+      "Computer Vision Fundamentals",
+      "مبانی بینایی ماشین",
+      "بینایی کامپیوتری"
+    ]
+  },
+  "modern_topics_in_computer": {
+    "displayName": "Modern Topics in Computer",
+    "farsiName": "موضوعات نوین در کامپیوتر",
+    "code": "1730465",
+    "aliases": [
+      "Modern Topics in Computer",
+      "Modern Topics in Computer Engineering",
+      "موضوعات جدید در علوم کامپیوتر",
+      "Topics in Modern Computing"
+    ]
+  },
+  "special_topics_in_computer": {
+    "displayName": "Special Topics in Computer",
+    "farsiName": "موضوعات ویژه در کامپیوتر",
+    "code": "1730499",
+    "aliases": [
+      "Special Topics in Computer",
+      "Special Topics in Computer Engineering",
+      "موضوعات خاص در کامپیوتر",
+      "Computer Special Topics"
+    ]
+  },
+  "digital_systems_design_i": {
+    "displayName": "Digital Systems Design I",
+    "farsiName": "طراحی سیستم‌های دیجیتال ۱",
+    "code": "1732203",
+    "aliases": [
+      "Digital Systems Design I",
+      "Digital Systems Design 1",
+      "DSD I",
+      "طراحی سیستم دیجیتال ۱"
+    ]
+  },
+  "digital_systems_design_lab_i": {
+    "displayName": "Digital Systems Design Lab I",
+    "farsiName": "آزمایشگاه طراحی سیستم‌های دیجیتال ۱",
+    "code": "1732204",
+    "aliases": [
+      "Digital Systems Design Lab I",
+      "DSD Lab I",
+      "آز طراحی سیستم دیجیتال ۱"
+    ]
+  },
+  "fundamentals_of_electrical_and_electronics_circuits": {
+    "displayName": "Fundamentals of Electrical and Electronics Circuits",
+    "farsiName": "مبانی مدارهای الکتریکی و الکترونیکی",
+    "code": "1732207",
+    "aliases": [
+      "Fundamentals of Electrical and Electronics Circuits",
+      "Fundamentals of Electrical and Electronic Circuits",
+      "EE Circuits Fundamentals",
+      "مبانی مدار الکتریکی و الکترونیکی"
+    ]
+  },
+  "computer_architecture_and_organization": {
+    "displayName": "Computer Architecture and Organization",
+    "farsiName": "معماری و سازمان کامپیوتر",
+    "code": "1732208",
+    "aliases": [
+      "Computer Architecture and Organization",
+      "Computer Architecture",
+      "معماری کامپیوتر",
+      "سازمان کامپیوتر"
+    ]
+  },
+  "digital_systems_design_ii": {
+    "displayName": "Digital Systems Design II",
+    "farsiName": "طراحی سیستم‌های دیجیتال ۲",
+    "code": "1732303",
+    "aliases": [
+      "Digital Systems Design II",
+      "Digital Systems Design 2",
+      "DSD II",
+      "طراحی سیستم دیجیتال ۲"
+    ]
+  },
+  "computer_architecture_lab": {
+    "displayName": "Computer Architecture Lab",
+    "farsiName": "آزمایشگاه معماری کامپیوتر",
+    "code": "1732304",
+    "aliases": [
+      "Computer Architecture Lab",
+      "Architecture Lab",
+      "آز معماری کامپیوتر"
+    ]
+  },
+  "digital_systems_design_lab_ii": {
+    "displayName": "Digital Systems Design Lab II",
+    "farsiName": "آزمایشگاه طراحی سیستم‌های دیجیتال ۲",
+    "code": "1732308",
+    "aliases": [
+      "Digital Systems Design Lab II",
+      "DSD Lab II",
+      "آز طراحی سیستم دیجیتال ۲"
+    ]
+  },
+  "microprocessor": {
+    "displayName": "Microprocessor",
+    "farsiName": "ریزپردازنده",
+    "code": "1732312",
+    "aliases": [
+      "Microprocessor",
+      "Microprocessors",
+      "میکروپروسسور",
+      "درس ریزپردازنده"
+    ]
+  },
+  "embedded_systems": {
+    "displayName": "Embedded Systems",
+    "farsiName": "سیستم‌های نهفته",
+    "code": "1732316",
+    "aliases": [
+      "Embedded Systems",
+      "Embedded",
+      "سیستم‌های امبدد",
+      "سیستم‌های تعبیه‌شده"
+    ]
+  },
+  "microprocessors_lab": {
+    "displayName": "Microprocessors Lab",
+    "farsiName": "آزمایشگاه ریزپردازنده‌ها",
+    "code": "1732401",
+    "aliases": [
+      "Microprocessors Lab",
+      "Microprocessor Lab",
+      "آز ریزپردازنده"
+    ]
+  },
+  "digital_electronics": {
+    "displayName": "Digital Electronics",
+    "farsiName": "الکترونیک دیجیتال",
+    "code": "1732417",
+    "aliases": [
+      "Digital Electronics",
+      "دیجیتال الکترونیک",
+      "مدارهای منطقی پیشرفته (در برخی برنامه‌ها)"
+    ]
+  },
+  "vlsi_circuits_design": {
+    "displayName": "VLSI Circuits Design",
+    "farsiName": "طراحی مدارهای VLSI",
+    "code": "1732420",
+    "aliases": [
+      "VLSI Circuits Design",
+      "VLSI Design",
+      "VLSI",
+      "طراحی VLSI",
+      "طراحی مدارهای بسیار مجتمع"
+    ]
+  },
+  "interfacing_circuits_design": {
+    "displayName": "Interfacing Circuits Design",
+    "farsiName": "طراحی مدارهای اینترفیس",
+    "code": "1732425",
+    "aliases": [
+      "Interfacing Circuits Design",
+      "Interface Circuits Design",
+      "Interfacing Circuits",
+      "طراحی مدارهای رابط",
+      "مدارهای واسط"
+    ]
+  },
+  "interface_circuits_design_lab": {
+    "displayName": "Interface Circuits Design Lab",
+    "farsiName": "آزمایشگاه طراحی مدارهای رابط",
+    "code": "1732426",
+    "aliases": [
+      "Interface Circuits Design Lab",
+      "Interfacing Circuits Lab",
+      "آز مدارهای رابط"
+    ]
+  },
+  "advanced_programming_and_lab": {
+    "displayName": "Advanced Programming and Lab",
+    "farsiName": "برنامه‌نویسی پیشرفته با آزمایشگاه",
+    "code": "1734102",
+    "aliases": [
+      "Advanced Programming and Lab",
+      "Advanced Programming with Lab",
+      "برنامه‌نویسی پیشرفته (همراه آزمایشگاه)",
+      "Advanced Programming + Lab"
+    ]
+  },
+  "data_structures": {
+    "displayName": "Data Structures",
+    "farsiName": "ساختمان داده‌ها",
+    "code": "1734212",
+    "aliases": [
+      "Data Structures",
+      "DS",
+      "ساختمان داده",
+      "ساختمان داده‌ها"
+    ]
+  },
+  "advanced_programming": {
+    "displayName": "Advanced Programming",
+    "farsiName": "برنامه‌نویسی پیشرفته",
+    "code": "1734217",
+    "aliases": [
+      "Advanced Programming",
+      "AP",
+      "برنامه‌نویسی پیشرفته",
+      "Advanced Coding"
+    ]
+  },
+  "databases_i": {
+    "displayName": "Databases I",
+    "farsiName": "پایگاه داده‌ها ۱",
+    "code": "1734303",
+    "aliases": [
+      "Databases I",
+      "Databases 1",
+      "DB I",
+      "Database I",
+      "پایگاه داده ۱"
+    ]
+  },
+  "operating_system_lab": {
+    "displayName": "Operating System Lab",
+    "farsiName": "آزمایشگاه سیستم عامل",
+    "code": "1734304",
+    "aliases": [
+      "Operating System Lab",
+      "OS Lab",
+      "آز سیستم عامل"
+    ]
+  },
+  "software_engineering_lab_i": {
+    "displayName": "Software Engineering Lab I",
+    "farsiName": "آزمایشگاه مهندسی نرم‌افزار ۱",
+    "code": "1734307",
+    "aliases": [
+      "Software Engineering Lab I",
+      "SE Lab I",
+      "آز مهندسی نرم‌افزار ۱"
+    ]
+  },
+  "databases_ii": {
+    "displayName": "Databases II",
+    "farsiName": "پایگاه داده‌ها ۲",
+    "code": "1734308",
+    "aliases": [
+      "Databases II",
+      "Databases 2",
+      "DB II",
+      "Database II",
+      "پایگاه داده ۲"
+    ]
+  },
+  "software_engineering_i": {
+    "displayName": "Software Engineering I",
+    "farsiName": "مهندسی نرم‌افزار ۱",
+    "code": "1734312",
+    "aliases": [
+      "Software Engineering I",
+      "Software Engineering 1",
+      "SE I",
+      "مهندسی نرم‌افزار ۱"
+    ]
+  },
+  "software_engineering_lab_ii": {
+    "displayName": "Software Engineering Lab II",
+    "farsiName": "آزمایشگاه مهندسی نرم‌افزار ۲",
+    "code": "1734316",
+    "aliases": [
+      "Software Engineering Lab II",
+      "SE Lab II",
+      "آز مهندسی نرم‌افزار ۲"
+    ]
+  },
+  "operating_system_principles": {
+    "displayName": "Operating System Principles",
+    "farsiName": "اصول سیستم‌های عامل",
+    "code": "1734320",
+    "aliases": [
+      "Operating System Principles",
+      "Operating Systems",
+      "OS",
+      "سیستم عامل",
+      "اصول سیستم عامل"
+    ]
+  },
+  "theory_of_formal_languages": {
+    "displayName": "Theory of Formal Languages",
+    "farsiName": "نظریه زبان‌های صوری",
+    "code": "1734325",
+    "aliases": [
+      "Theory of Formal Languages",
+      "Formal Languages",
+      "زبان‌های صوری",
+      "نظریه زبان و ماشین (به‌طور نزدیک)"
+    ]
+  },
+  "compiler_i": {
+    "displayName": "Compiler I",
+    "farsiName": "کمپایلر ۱",
+    "code": "1734333",
+    "aliases": [
+      "Compiler I",
+      "Compiler 1",
+      "Compiler Construction I",
+      "طراحی کامپایلر ۱",
+      "کمپایلر ۱"
+    ]
+  },
+  "software_testing": {
+    "displayName": "Software Testing",
+    "farsiName": "آزمون نرم‌افزار",
+    "code": "1734400",
+    "aliases": [
+      "Software Testing",
+      "Testing",
+      "آزمایش نرم‌افزار",
+      "تست نرم‌افزار"
+    ]
+  },
+  "artificial_intelligence": {
+    "displayName": "Artificial Intelligence",
+    "farsiName": "هوش مصنوعی",
+    "code": "1734420",
+    "aliases": [
+      "Artificial Intelligence",
+      "AI",
+      "هوش مصنوعی"
+    ]
+  },
+  "design_and_analysis_of_algorithms": {
+    "displayName": "Design and Analysis of Algorithms",
+    "farsiName": "طراحی و تحلیل الگوریتم‌ها",
+    "code": "1734425",
+    "aliases": [
+      "Design and Analysis of Algorithms",
+      "DAA",
+      "Algorithms",
+      "طراحی الگوریتم",
+      "تحلیل الگوریتم‌ها"
+    ]
+  },
+  "computer_graphics": {
+    "displayName": "Computer Graphics",
+    "farsiName": "گرافیک کامپیوتری",
+    "code": "1734436",
+    "aliases": [
+      "Computer Graphics",
+      "CG",
+      "گرافیک کامپیوتر",
+      "گرافیک رایانه‌ای"
+    ]
+  },
+  "software_engineering_ii": {
+    "displayName": "Software Engineering II",
+    "farsiName": "مهندسی نرم‌افزار ۲",
+    "code": "1734449",
+    "aliases": [
+      "Software Engineering II",
+      "Software Engineering 2",
+      "SE II",
+      "مهندسی نرم‌افزار ۲"
+    ]
+  },
+  "data_base_lab": {
+    "displayName": "Data Base Lab",
+    "farsiName": "آزمایشگاه پایگاه داده",
+    "code": "1734452",
+    "aliases": [
+      "Data Base Lab",
+      "Database Lab",
+      "DB Lab",
+      "آز پایگاه داده"
+    ]
+  },
+  "ethics_and_laws_in_it": {
+    "displayName": "Ethics and Laws in IT",
+    "farsiName": "اخلاق و قوانین در فناوری اطلاعات",
+    "code": "1736208",
+    "aliases": [
+      "Ethics and Laws in IT",
+      "IT Ethics and Law",
+      "اخلاق حرفه‌ای در IT",
+      "قوانین فناوری اطلاعات"
+    ]
+  },
+  "computer_networks_ii": {
+    "displayName": "Computer Networks II",
+    "farsiName": "شبکه‌های کامپیوتری ۲",
+    "code": "1736310",
+    "aliases": [
+      "Computer Networks II",
+      "Computer Networks 2",
+      "Networks II",
+      "شبکه ۲",
+      "شبکه‌های کامپیوتری ۲"
+    ]
+  },
+  "information_technology_engineering": {
+    "displayName": "Information Technology Engineering",
+    "farsiName": "مهندسی فناوری اطلاعات",
+    "code": "1736318",
+    "aliases": [
+      "Information Technology Engineering",
+      "IT Engineering",
+      "مهندسی IT",
+      "مهندسی فناوری اطلاعات"
+    ]
+  },
+  "e_commerce": {
+    "displayName": "E-Commerce",
+    "farsiName": "تجارت الکترونیکی",
+    "code": "1736401",
+    "aliases": [
+      "E-Commerce",
+      "Electronic Commerce",
+      "تجارت الکترونیکی",
+      "کسب‌وکار الکترونیکی"
+    ]
+  },
+  "information_technology_project_management_and_control": {
+    "displayName": "Information Technology Project Management and Control",
+    "farsiName": "مدیریت و کنترل پروژه‌های فناوری اطلاعات",
+    "code": "1736407",
+    "aliases": [
+      "Information Technology Project Management and Control",
+      "IT Project Management",
+      "مدیریت پروژه IT",
+      "کنترل پروژه‌های فناوری اطلاعات"
+    ]
+  },
+  "multimedia_systems": {
+    "displayName": "Multimedia Systems",
+    "farsiName": "سیستم‌های چندرسانه‌ای",
+    "code": "1736426",
+    "aliases": [
+      "Multimedia Systems",
+      "سیستم‌های مالتی‌مدیا",
+      "چندرسانه‌ای"
+    ]
+  },
+  "network_security": {
+    "displayName": "Network Security",
+    "farsiName": "امنیت شبکه",
+    "code": "1736432",
+    "aliases": [
+      "Network Security",
+      "امنیت شبکه",
+      "امنیت اطلاعات در شبکه"
+    ]
+  },
+  "information_technology_strategic_management": {
+    "displayName": "Information Technology Strategic Management",
+    "farsiName": "مدیریت استراتژیک فناوری اطلاعات",
+    "code": "1736438",
+    "aliases": [
+      "Information Technology Strategic Management",
+      "IT Strategic Management",
+      "مدیریت استراتژیک IT",
+      "مدیریت راهبردی فناوری اطلاعات"
+    ]
+  },
+  "human_computer_interaction": {
+    "displayName": "Human Computer Interaction",
+    "farsiName": "تعامل انسان و کامپیوتر",
+    "code": "1736450",
+    "aliases": [
+      "Human Computer Interaction",
+      "HCI",
+      "Human–Computer Interaction",
+      "تعامل انسان و رایانه",
+      "رابط کاربر"
+    ]
+  },
+  "introduction_to_electrical_and_computer_engineering": {
+    "displayName": "Introduction to Electrical and Computer Engineering",
+    "farsiName": "مقدمه‌ای بر مهندسی برق و کامپیوتر",
+    "code": "1740101",
+    "aliases": [
+      "Introduction to Electrical and Computer Engineering",
+      "Intro to ECE",
+      "ECE Introduction",
+      "مقدمه مهندسی برق و کامپیوتر"
+    ]
+  },
+  "technical_writing_and_presentation": {
+    "displayName": "Technical Writing and Presentation",
+    "farsiName": "نگارش فنی و ارائه",
+    "code": "1740312",
+    "aliases": [
+      "Technical Writing and Presentation",
+      "Technical Writing",
+      "Technical Presentation",
+      "نگارش علمی و فنی",
+      "ارائه فنی"
+    ]
+  },
+  "computer_networks_1740320": {
+    "displayName": "Computer Networks",
+    "farsiName": "شبکه‌های کامپیوتری",
+    "code": "1740320",
+    "aliases": [
+      "Computer Networks",
+      "Networks",
+      "شبکه‌های کامپیوتری",
+      "شبکه ۱ (برای این کد)"
+    ]
+  },
+  "project_i": {
+    "displayName": "Project I",
+    "farsiName": "پروژه ۱",
+    "code": "1740350",
+    "aliases": [
+      "Project I",
+      "Project 1",
+      "Undergraduate Project I",
+      "پروژه کارشناسی ۱",
+      "پروژه ۱"
+    ]
+  },
+  "internship_1740356": {
+    "displayName": "Internship",
+    "farsiName": "کارآموزی",
+    "code": "1740356",
+    "aliases": [
+      "Internship",
+      "Industrial Internship",
+      "کارآموزی",
+      "کارورزی"
+    ]
+  },
+  "internship_1740357": {
+    "displayName": "Internship",
+    "farsiName": "کارآموزی",
+    "code": "1740357",
+    "aliases": [
+      "Internship",
+      "Industrial Internship",
+      "کارآموزی",
+      "کارورزی"
+    ]
+  },
+  "principles_of_research_and_presentation": {
+    "displayName": "Principles of Research and Presentation",
+    "farsiName": "اصول پژوهش و ارائه",
+    "code": "1740403",
+    "aliases": [
+      "Principles of Research and Presentation",
+      "Research Methods and Presentation",
+      "اصول تحقیق و ارائه",
+      "روش تحقیق و ارائه"
+    ]
+  },
+  "computer_networks_lab": {
+    "displayName": "Computer Networks Lab",
+    "farsiName": "آزمایشگاه شبکه‌های کامپیوتری",
+    "code": "1740404",
+    "aliases": [
+      "Computer Networks Lab",
+      "Networks Lab",
+      "آز شبکه",
+      "آز شبکه‌های کامپیوتری"
+    ]
+  },
+  "computer_networks_1740417": {
+    "displayName": "Computer Networks",
+    "farsiName": "شبکه‌های کامپیوتری",
+    "code": "1740417",
+    "aliases": [
+      "Computer Networks",
+      "Networks",
+      "شبکه‌های کامپیوتری",
+      "شبکه ۱ (برای این کد)"
+    ]
+  },
+  "project_ii": {
+    "displayName": "Project II",
+    "farsiName": "پروژه ۲",
+    "code": "1740450",
+    "aliases": [
+      "Project II",
+      "Project 2",
+      "Undergraduate Project II",
+      "پروژه کارشناسی ۲",
+      "پروژه ۲"
+    ]
+  }
+}

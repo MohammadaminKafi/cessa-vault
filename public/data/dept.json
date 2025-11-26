@@ -1,0 +1,77 @@
+{
+  "ce": {
+    "displayName": "Computer Engineering",
+    "farsiName": "مهندسی کامپیوتر",
+    "aliases": ["computer_engineering", "comp_eng", "computer-engineering", "ceng"]
+  },
+  "ee": {
+    "displayName": "Electrical Engineering",
+    "farsiName": "مهندسی برق",
+    "aliases": ["electrical_engineering", "elec_eng", "electrical-engineering", "ee"]
+  },
+  "ag": {
+    "displayName": "Agriculture",
+    "farsiName": "کشاورزی",
+    "aliases": ["agri", "agricultural", "agriculture_eng"]
+  },
+  "ch": {
+    "displayName": "Chemistry",
+    "farsiName": "شیمی",
+    "aliases": ["chem", "chemistry_dept"]
+  },
+  "math": {
+    "displayName": "Mathematical Sciences",
+    "farsiName": "علوم ریاضی",
+    "aliases": ["mathematics", "math_sciences", "mathematical-sciences", "maths"]
+  },
+  "ph": {
+    "displayName": "Physics",
+    "farsiName": "فیزیک",
+    "aliases": ["phys", "physics_dept"]
+  },
+  "che": {
+    "displayName": "Chemical Engineering",
+    "farsiName": "مهندسی شیمی",
+    "aliases": ["chemical_engineering", "chem_eng", "chemical-engineering", "chemeng"]
+  },
+  "civil": {
+    "displayName": "Civil Engineering",
+    "farsiName": "مهندسی عمران",
+    "aliases": ["civil_engineering", "civil_eng", "civil-engineering", "civ"]
+  },
+  "tr": {
+    "displayName": "Transportation Engineering",
+    "farsiName": "مهندسی حمل و نقل",
+    "aliases": ["transport_engineering", "transport_eng", "transportation-engineering", "trans"]
+  },
+  "ie": {
+    "displayName": "Industrial Engineering",
+    "farsiName": "مهندسی صنایع",
+    "aliases": ["industrial_engineering", "ind_eng", "industrial-engineering", "ie"]
+  },
+  "mining": {
+    "displayName": "Mining Engineering",
+    "farsiName": "مهندسی معدن",
+    "aliases": ["mining_engineering", "mine_eng", "mining-engineering", "min"]
+  },
+  "me": {
+    "displayName": "Mechanical Engineering",
+    "farsiName": "مهندسی مکانیک",
+    "aliases": ["mechanical_engineering", "mech_eng", "mechanical-engineering", "me"]
+  },
+  "materials": {
+    "displayName": "Materials Engineering",
+    "farsiName": "مهندسی مواد",
+    "aliases": ["materials_engineering", "mat_eng", "materials-engineering", "mse"]
+  },
+  "te": {
+    "displayName": "Textile Engineering",
+    "farsiName": "مهندسی نساجی",
+    "aliases": ["textile_engineering", "text_eng", "textile-engineering", "tex"]
+  },
+  "nr": {
+    "displayName": "Natural Resources",
+    "farsiName": "منابع طبیعی",
+    "aliases": ["natural-resources", "nat_resources", "nr", "resources"]
+  }
+}
