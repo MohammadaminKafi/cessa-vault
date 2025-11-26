@@ -60,7 +60,7 @@ const departments = scanDataDirectory();
               <DepartmentCard
                 client:load
                 name={getDeptDisplayName(dept)}
-                href={`/${dept}/`}
+                href={`${import.meta.env.BASE_URL}${dept}/`}
                 description={getDeptDisplayName(dept)}
               />
             ))}

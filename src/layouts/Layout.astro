@@ -17,7 +17,7 @@ import ThemeToggle from '../components/ThemeToggle';
     <meta charset="UTF-8" />
     <meta name="description" content={description || "CESSA Vault - University Material Archive"} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
     <title>{title} | CESSA Vault</title>
     
     <!-- Initialize theme before page renders to prevent flash -->
@@ -125,7 +125,7 @@ import ThemeToggle from '../components/ThemeToggle';
       <div class="container">
         <nav style="display: flex; justify-content: space-between; align-items: center; padding: var(--spacing-lg) 0;">
           <h1 style="font-size: 1.75rem; font-weight: 800; letter-spacing: -0.025em;">
-            <a href="/" style="color: white; text-decoration: none;">
+            <a href={import.meta.env.BASE_URL} style="color: white; text-decoration: none;">
               CESSA Vault
             </a>
           </h1>

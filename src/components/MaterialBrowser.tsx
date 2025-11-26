@@ -1,12 +1,12 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import type { CourseStructure } from '../utils/dataScanner';
 
 interface MaterialBrowserProps {
   materials: CourseStructure[];
-  department: string;
+  baseUrl?: string;
 }
 
-export default function MaterialBrowser({ materials, department }: MaterialBrowserProps) {
+export default function MaterialBrowser({ materials, baseUrl = '/' }: MaterialBrowserProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [filterCourse, setFilterCourse] = useState('all');
   const [filterType, setFilterType] = useState('all');
@@ -140,7 +140,7 @@ export default function MaterialBrowser({ materials, department }: MaterialBrows
             {filteredMaterials.map((material, index) => (
               <a
                 key={index}
-                href={`/${material.department}/${material.course}/${material.instructor}/${material.type}/`}
+                href={`${baseUrl}${material.department}/${material.course}/${material.instructor}/${material.type}/`}
                 className="material-card"
               >
                 <div className="material-header">

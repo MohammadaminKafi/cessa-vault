@@ -8,8 +8,8 @@ export default defineConfig({
   outDir: './dist',
   publicDir: '../public',
   output: 'static',
-  site: 'https://mohammadaminkafi.github.io',
-  base: '/cessa-vault',
+  site: 'https://mohammadaminkafi.github.io/cessa-vault',
+  base: '/cessa-vault/',
   build: {
     assets: 'assets'
   }

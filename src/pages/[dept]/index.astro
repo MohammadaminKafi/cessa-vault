@@ -20,7 +20,7 @@ const deptDisplayName = getDeptDisplayName(dept);
   <div class="page-header-bg">
     <div class="container page-header-content">
       <div class="breadcrumb">
-        <a href="/">📚 CESSA Vault</a>
+        <a href={import.meta.env.BASE_URL}>📚 CESSA Vault</a>
         <span class="separator">›</span>
         <span class="current">{deptDisplayName}</span>
       </div>
@@ -46,7 +46,7 @@ const deptDisplayName = getDeptDisplayName(dept);
         <p class="empty-path">Materials should be organized in: <code>public/data/{dept}/course/instructor/type/</code></p>
       </div>
     ) : (
-      <MaterialBrowser client:load materials={materials} department={dept} />
+      <MaterialBrowser client:load materials={materials} baseUrl={import.meta.env.BASE_URL} />
     )}
   </div>
 </Layout>

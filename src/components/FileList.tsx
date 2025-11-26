@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { FileItem } from '../utils/dataScanner';
 
 interface FileListProps {
   files: FileItem[];
-  basePath: string;
+  baseUrl?: string;
 }
 
-export default function FileList({ files, basePath }: FileListProps) {
+export default function FileList({ files, baseUrl = '/' }: FileListProps) {
   const [viewerOpen, setViewerOpen] = useState(false);
   const [currentFile, setCurrentFile] = useState<{ url: string; name: string; type: 'pdf' | 'image' } | null>(null);
 
@@ -39,7 +39,7 @@ export default function FileList({ files, basePath }: FileListProps) {
   const handleDownload = (file: FileItem) => {
     // The file path needs to be relative to public/data
     const relativePath = file.path.split('/public/data/')[1];
-    const downloadUrl = `/data/${relativePath}`;
+    const downloadUrl = `${baseUrl}data/${relativePath}`;
     
     // Create a temporary link and trigger download
     const link = document.createElement('a');
@@ -59,7 +59,7 @@ export default function FileList({ files, basePath }: FileListProps) {
 
   const handleView = (file: FileItem) => {
     const relativePath = file.path.split('/public/data/')[1];
-    const fileUrl = `/data/${relativePath}`;
+    const fileUrl = `${baseUrl}data/${relativePath}`;
     const ext = file.extension?.toLowerCase();
     
     if (ext === '.pdf') {

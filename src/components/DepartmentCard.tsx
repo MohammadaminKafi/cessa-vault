@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface DepartmentCardProps {
   name: string;
   href: string;
@@ -9,7 +7,7 @@ interface DepartmentCardProps {
 export default function DepartmentCard({ name, href, description }: DepartmentCardProps) {
   return (
     <a href={href} className="department-card">
-      <div class="card-decoration"></div>
+      <div className="card-decoration"></div>
       <div className="card-content">
         <div className="department-icon-wrapper">
           <span className="department-icon">🎓</span>
